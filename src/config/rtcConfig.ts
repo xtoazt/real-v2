@@ -7,7 +7,7 @@ export const rtcConfig: RTCConfiguration = {
   // connection cannot be made. Feel free to change them as you'd like. If you
   // would like to disable relay servers entirely, remove the `iceServers`
   // property from the rtcConfig object. IF YOU DISABLE RELAY SERVERS,
-  // CHITCHATTER PEERS MAY NOT BE ABLE TO CONNECT DEPENDING ON HOW THEY ARE
+  // Real PEERS MAY NOT BE ABLE TO CONNECT DEPENDING ON HOW THEY ARE
   // CONNECTED TO THE INTERNET.
   iceServers: [
     {

@@ -33,10 +33,10 @@ const srcPathAliases = srcPaths.reduce((acc, dir) => {
 
 const config = () => {
   return defineConfig({
-    // NOTE: Uncomment this if you are hosting Chitchatter on GitHub Pages
+    // NOTE: Uncomment this if you are hosting Real on GitHub Pages
     // without a custom domain. If you renamed the repo to something other than
-    // "chitchatter", then use that instead of "chitchatter" here.
-    // base: '/chitchatter/',
+    // "Real", then use that instead of "Real" here.
+    // base: '/Real/',
     build: {
       // NOTE: This isn't really working. At the very least, it's still useful
       // for exposing source code to users.

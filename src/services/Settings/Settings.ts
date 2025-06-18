@@ -11,7 +11,7 @@ class InvalidFileError extends Error {
   message = 'InvalidFileError: File could not be imported'
 }
 
-const encryptionTestTarget = 'chitchatter'
+const encryptionTestTarget = 'Real'
 
 export class SettingsService {
   exportSettings = async (userSettings: UserSettings) => {
@@ -22,7 +22,7 @@ export class SettingsService {
       type: 'application/json;charset=utf-8',
     })
 
-    saveAs(blob, `chitchatter-profile-${userSettings.userId}.json`)
+    saveAs(blob, `Real-profile-${userSettings.userId}.json`)
   }
 
   importSettings = async (file: File) => {
@@ -57,7 +57,7 @@ export class SettingsService {
           )
 
           // NOTE: This determines whether the public and private keys match
-          // and are compatible with Chitchatter.
+          // and are compatible with Real.
           if (decryptedString !== encryptionTestTarget) {
             throw new Error()
           }

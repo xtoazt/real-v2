@@ -41,7 +41,7 @@ export const About = () => {
         {`
 ### User Guide
 
-Chitchatter is a communication tool designed to make secure and private communication accessible to all. Please [see the README](https://github.com/jeremyckahn/chitchatter/blob/develop/README.md) for full project documentation.
+Real V2 is a communication tool designed to make secure and private communication accessible to all. Please [see the README](https://github.com/xtoazt/real-v2/blob/develop/README.md) for full project documentation.
 
 #### Chat rooms
 
@@ -53,13 +53,13 @@ To connect to others, share the room URL with a secure tool such as [Burner Note
 
 ##### Peer verification
 
-When you connect with a peer, Chitchatter automatically attempts to use [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) to verify them. You can see everyone's public keys in the peer list. Feel free to share your public key with others (it is not sensitive information) so that they can uniquely identify you.
+When you connect with a peer, Real automatically attempts to use [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) to verify them. You can see everyone's public keys in the peer list. Feel free to share your public key with others (it is not sensitive information) so that they can uniquely identify you.
 
 All public and private keys are generated locally. Your private key is never sent to any peer or server.
 
 ##### Conversation backfilling
 
-Conversation transcripts are erased from local memory as soon as you close the page or navigate away from the room. Conversations are only ever held in volatile memory and never persisted to any disk by Chitchatter.
+Conversation transcripts are erased from local memory as soon as you close the page or navigate away from the room. Conversations are only ever held in volatile memory and never persisted to any disk by Real.
 
 When a peer joins a **public** room with participants already in it, the new peer will automatically request the transcript of the conversation that has already taken place from the other peers. Once all peers leave the room, the conversation is completely erased. Peers joining a **private** room will not get the conversation transcript backfilled.
 

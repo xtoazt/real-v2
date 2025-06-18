@@ -374,7 +374,7 @@ export const Shell = ({ appNeedsUpdate, children, userPeerId }: ShellProps) => {
           <>
             <UpgradeDialog appNeedsUpdate={appNeedsUpdate} />
             <Box
-              className="Chitchatter"
+              className="Real"
               sx={{
                 height: '100vh',
                 display: 'flex',
@@ -452,10 +452,10 @@ export const Shell = ({ appNeedsUpdate, children, userPeerId }: ShellProps) => {
                   >
                     This conversation is powered by{' '}
                     <Link
-                      href="https://github.com/jeremyckahn/chitchatter"
+                      href="https://github.com/jeremyckahn/Real"
                       target="_blank"
                     >
-                      Chitchatter
+                      Real
                     </Link>
                   </Typography>
                 ) : null}

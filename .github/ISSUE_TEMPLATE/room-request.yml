@@ -9,8 +9,8 @@ body:
     id: room-url
     attributes:
       label: Room URL
-      description: What is the Chitchatter URL for this room?
-      placeholder: ex. https://chitchatter.im/public/room-subject
+      description: What is the Real URL for this room?
+      placeholder: ex. https://Real.im/public/room-subject
     validations:
       required: true
   - type: input

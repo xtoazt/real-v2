@@ -205,7 +205,7 @@ export const Settings = ({ userId }: SettingsProps) => {
           mb: 2,
         }}
       >
-        Export your Chitchatter profile data so that it can be moved to another
+        Export your Real profile data so that it can be moved to another
         browser or device.{' '}
         <strong>Be careful not to share the exported data with anyone</strong>.
         It contains your unique verification keys.
@@ -235,7 +235,7 @@ export const Settings = ({ userId }: SettingsProps) => {
           mb: 2,
         }}
       >
-        Import your Chitchatter profile that was previously exported from
+        Import your Real profile that was previously exported from
         another browser or device.
       </Typography>
       <FileReaderInput
@@ -284,7 +284,7 @@ export const Settings = ({ userId }: SettingsProps) => {
           </PeerNameDisplay>
         </strong>{' '}
         to a new, randomly-assigned name. It will also reset all of your saved
-        Chitchatter application preferences.
+        Real application preferences.
       </Typography>
       <Button
         variant="outlined"
@@ -307,7 +307,7 @@ export const Settings = ({ userId }: SettingsProps) => {
           mb: 2,
         }}
       >
-        Chitchatter only stores user preferences and never message content of
+        Real only stores user preferences and never message content of
         any kind. This preference data is only stored locally on your device and
         not a server.
       </Typography>

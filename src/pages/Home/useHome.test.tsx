@@ -48,7 +48,7 @@ describe('useHome Hook', () => {
 
   it('should call setTitle on mount', () => {
     renderHook(() => useHome(), { wrapper: MockShellContextProvider })
-    expect(mockSetTitle).toHaveBeenCalledWith('Chitchatter')
+    expect(mockSetTitle).toHaveBeenCalledWith('Real')
   })
 
   it('should update roomName state when handleRoomNameChange is called', () => {

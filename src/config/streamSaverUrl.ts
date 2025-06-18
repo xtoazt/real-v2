@@ -1,6 +1,6 @@
 export const streamSaverUrl =
   import.meta.env.VITE_STREAMSAVER_URL ??
-  // If you would like to host your own Chitchatter instance with an
+  // If you would like to host your own Real instance with an
   // alternative StreamSaver fork to facilitate file sharing, change this
   // string to its respective .mitm.html URL.
   //

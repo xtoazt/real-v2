@@ -1,5 +1,5 @@
 let trackerUrls: string[] | undefined = [
-  // If you would like to host your own Chitchatter instance with alternative
+  // If you would like to host your own Real instance with alternative
   // WebTorrent trackers to connect peers, add them to this array. This array
   // gets provided to Trystero as the `trackerUrls` configuration option:
   // https://github.com/dmotz/trystero#joinroomconfig-namespace
@@ -10,7 +10,7 @@ let trackerUrls: string[] | undefined = [
 
 // If a tracker URL has been provided via the VITE_TRACKER_URL environment
 // variable, prioritize using it. This is mainly relevant for local development
-// when using the `npm run dev` script. If you are hosting your own Chitchatter
+// when using the `npm run dev` script. If you are hosting your own Real
 // instance, consider populating the trackerUrls above instead.
 if (import.meta.env.VITE_TRACKER_URL) {
   trackerUrls.unshift(import.meta.env.VITE_TRACKER_URL)

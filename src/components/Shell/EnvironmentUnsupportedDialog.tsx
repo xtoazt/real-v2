@@ -37,7 +37,7 @@ export const EnvironmentUnsupportedDialog = () => {
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-description">
-          Chitchatter is unable to start up. The following issues were detected:
+          Real is unable to start up. The following issues were detected:
         </DialogContentText>
         <Typography
           component="ul"

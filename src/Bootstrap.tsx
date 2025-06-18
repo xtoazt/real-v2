@@ -13,7 +13,6 @@ import { SettingsContext } from 'contexts/SettingsContext'
 import { homepageUrl, routes } from 'config/routes'
 import { Home } from 'pages/Home'
 import { About } from 'pages/About'
-import { Disclaimer } from 'pages/Disclaimer'
 import { Settings } from 'pages/Settings'
 import { PublicRoom } from 'pages/PublicRoom'
 import { PrivateRoom } from 'pages/PrivateRoom'
@@ -75,8 +74,8 @@ const getConfigFromSdk = () => {
 
 const Bootstrap = ({
   persistedStorage: persistedStorageProp = localforage.createInstance({
-    name: 'chitchatter',
-    description: 'Persisted settings data for chitchatter',
+    name: 'Real',
+    description: 'Persisted settings data for Real',
   }),
   initialUserSettings,
   serializationService = serialization,
@@ -144,7 +143,7 @@ const Bootstrap = ({
             }
           } catch (e) {
             console.error(
-              'Chitchatter configuration from parent frame could not be loaded'
+              'Real configuration from parent frame could not be loaded'
             )
           }
         }
